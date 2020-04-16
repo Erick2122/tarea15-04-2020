@@ -1,0 +1,10 @@
+void setup(){
+  size(500,500);
+  
+  noFill();
+  
+  for(int x=280; x<=350; x=x-28){
+    ellipse(250,250,x,x);
+    
+  }
+}
